@@ -2,9 +2,10 @@
 
 ## Guidelines :
 - The code must be of good quality with enough documentation within the resource file. Please refer `CONTRIBUTING.md` to know more about documentation process and its advantages.
-- Data Structures concept and codes implementing DSA can be pushed into the repo within the respective folder of programming language used.
+- Different programming languages and software related cheatsheet snippets can be added to this repository.
+- Add a container in the main page and then link that content box to the start file and folder referring that particular entity (such as Python, Java etc..)
 - Any mistakes found ? Feel free to raise an issue! We are happy to rectify and to work on it.
-- Avoid simple programs and try to contribute more complex programs in the stack.
+- Avoid simple commits and try to contribute more set of cheatsheet code snippets in those respective domains.
 - Search previous suggestions before making a new one, as yours may be a duplicate.
 - Ensure that you describe your pull request.
 
@@ -25,7 +26,6 @@
 ## When should program documentation be done?
 
 - When designing your program, you must spend time thinking about how to structure your program, what modules are needed, and the algorithms and processes you will use in the modules.
-- You must think about what sort of data structures and objects (e.g., arrays, files or linked lists) are needed. 
 - This thinking must be done before you start coding, or you will find yourself wasting time writing useless code that is full of errors.
 - It is very important to record this creative process so that the programmers that follow you do not duplicate work that you have already done.
 - Before writing the code, you should write the documentation to describe the design of each component of your program.
@@ -40,13 +40,12 @@ For an individual module, it is important to record <br>
 - when the module was written or modified,
 - why the module was written or modified, 
 - how the module interacts with other modules,
-- what special algorithms were used, if any, and 
-- acknowledge outside sources for ideas and algorithms.
+- acknowledge outside sources from which datas are taken.
 
 ---
 
-## For data structures, it is important to record 
-- [ ] what data structure is used, 
-- [ ] why a particular structure was used,
-- [ ] what data is contained in the structure, and
-- [ ] how the data structure is implemented.
+## For cheatsheets, it is important to record 
+- [ ] detailing of each code snippet, 
+- [ ] organized listing of all code snippets,
+- [ ] maintaining relatable images and other resources within the codes,
+- [ ] must be of simple and readable language for documenting.
