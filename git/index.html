@@ -21,17 +21,18 @@
                 <hr></br>
                 <h1><a href="">Git Cheat Sheet</a></h1>
                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <!------------- 1. Installation and GUIs------------->
                     <div class="panel panel-default">
-                    
-                        <div class="panel-heading" role="tab" id="headingOne">
+                        <div class="panel-heading" role="tab" id="heading1">
                             <h4 class="panel-title">
-                                <a class="first" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <a class="first" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1">
                                     Installation & GUIs
                                     <span> </span>
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                        <div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
                             <div class="panel-body">
                                 <ul>
                                     <p>With platform specific installers for Git, GitHub also provides the
@@ -45,17 +46,21 @@
                             </div>
                         </div>
                     </div>
+                    <!-------------Installation and GUIs Completed------------->
 
+                    <!--*****************************-->
+
+                    <!------------- 2. Setup------------->
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingTwo">
+                        <div class="panel-heading" role="tab" id="heading2">
                             <h4 class="panel-title">
-                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
                                     Setup
                                     <span> </span>
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                             <div class="panel-body">
                                 <ul>
                                     <p>Configuring user information used across all local repositories</p>
@@ -67,27 +72,242 @@
                             </div>
                         </div>
                     </div>
+                    <!-------------Setup Completed------------->
 
-                    <!--
-                        If you are reusing this code snippet for adding cheatsheet data. Then replace headingTwo into headingThree and collapseTwo into collapseThree for 3rd set of content.
-                        If the content is more than 3 then follow the same pattern. 
-                    -->
+                    <!--*****************************-->
 
+                    <!------------- 3. Setup and Intialization------------->
                     <div class="panel panel-default">
-                        <div class="panel-heading" role="tab" id="headingThree">
+                        <div class="panel-heading" role="tab" id="heading3">
                             <h4 class="panel-title">
-                                <a class="collapsed last" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                    Placeholder
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                                    Setup and Intialization
                                     <span> </span>
                                 </a>
                             </h4>
                         </div>
-                        <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                        <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
                             <div class="panel-body">
-                                <p>Placeholder Content</p>
+                                <ul>
+                                    <p>Configuring user information, initializing and cloning repositories</p>
+                                    <li><h4>git init</h4><p>Initialize an existing directory as a Git repository.</p></li>
+                                    <li><h4>git clone [url]</h4><p>retrieve an entire repository from a hosted location via URL.</p></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
+                    <!-------------Setup and Intialization Completed------------->
+
+                    <!--*****************************-->
+
+                    <!------------- 4. Stage and Snapshot------------->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading4">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    Staging and Snapshots
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Working with snapshots and the Git staging area</p>
+                                    <li><h4>git status</h4><p>show modified files in working directory, staged for your next commit.</p></li>
+                                    <li><h4>git add [file]</h4><p>add a file as it looks now to your next commit (stage).</p></li>
+                                    <li><h4>git reset [file]</h4><p>unstage a file while retaining the changes in working directory.</p></li>
+                                    <li><h4>git diff</h4><p>diff of what is changed but not staged</p></li>
+                                    <li><h4>git diff --staged</h4><p>diff of what is staged but not yet commited</p></li>
+                                    <li><h4>git commit -m “[descriptive message]”</h4><p>commit your staged content as a new commit snapshot</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------Stage and Snapshot Completed------------->
+
+                    <!--*****************************-->
+
+                    <!------------- 5. Branching and Merging------------->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading5">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Branching and Merging
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Isolating work in branches, changing context, and integrating changes</p>
+                                    <li><h4>git branch</h4><p>list your branches.a * will appear next to the currently active branch.</p></li>
+                                    <li><h4>git branch [branch-name]</h4><p>create a new branch at the current commit.</p></li>
+                                    <li><h4>git checkout</h4><p>switch to another branch and check it out into your working directory.</p></li>
+                                    <li><h4>git merge [branch]</h4><p>merge the specified branch’s history into the current 1.</p></li>
+                                    <li><h4>git log</h4><p>show all commits in the current branch’s history.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------Branching and Mergin Completed------------->
+
+                    <!--*****************************-->
+
+                    <!------------- 6. Sharing and Updating------------->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading6">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                    Sharing and Updating
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Retrieving updates from another repository and updating local repos</p>
+                                    <li><h4>git remote add [alias] [url]</h4><p>add a git URL as an alias.</p></li>
+                                    <li><h4>git fetch [alias]</h4><p>fetch down all the branches from that Git remote.</p></li>
+                                    <li><h4>git merge [alias]/[branch]</h4><p>merge a remote branch into your current branch to bring it up to date.</p></li>
+                                    <li><h4>git push [alias] [branch]</h4><p>Transmit local branch commits to the remote repository branch.</p></li>
+                                    <li><h4>git pull</h4><p>fetch and merge any commits from the tracking remote branch.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------Sharing and Updating Completed------------->
+
+                    <!--*****************************-->
+
+                    <!-- 7. Inspection and Comparison-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading7">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                    Inspection and Comparison
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Examining logs, diffs and object information</p>
+                                    <li><h4>git log</h4><p>show the commit history for the currently active branch.</p></li>
+                                    <li><h4>git log branchB..branchA</h4><p>show the commits on branchA that are not on branchB.</p></li>
+                                    <li><h4>git log --follow [file]</h4><p>show the commits that changed file, even across renames.</p></li>
+                                    <li><h4>git diff branchB...branchA</h4><p>show the diff of what is in branchA that is not in branchB.</p></li>
+                                    <li><h4>git show [SHA]</h4><p>show any object in Git in human-readable format.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Inspection and Comparison Completed-->
+
+                    <!--*****************************-->
+
+                    <!-- 8. Tracking Path Changes-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading8">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                    Tracking Path Changes
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Versioning file removes and path changes</p>
+                                    <li><h4>git rm [file]</h4><p>delete the file from project and stage the removal for commit.</p></li>
+                                    <li><h4>git mv [existing-path] [new-path]</h4><p>change an existing file path and stage the move.</p></li>
+                                    <li><h4>git log --stat -M</h4><p>show all commit logs with indication of any paths that moved.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tracking Path Changes Completed-->
+
+                    <!--*****************************-->
+
+                    <!-- 9. Ignoring Patterns-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading9">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                    Ignoring Patterns
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Versioning file removes and path changes</p>
+                                    <li><h4>logs/<br>*.notes<br>pattern*/<br></h4><p>Save a file with desired paterns as .gitignore with either direct string matches or wildcard globs.</p></li>
+                                    <li><h4>git config --global core.excludesfile [file]</h4><p>system wide ignore patern for all local repositories.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Ignoring Patterns Completed-->
+
+                    <!--*****************************-->
+                    
+                    <!-- 10. Temporary Commits-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading10">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                    Temporary Commits
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Temporarily store modified, tracked files in order to change branches</p>
+                                    <li><h4>git stash</h4><p>Save modified and staged changes.</p></li>
+                                    <li><h4>git stash list</h4><p>list stack-order of stashed file changes.</p></li>
+                                    <li><h4>git stash pop</h4><p>write working from top of stash stack.</p></li>
+                                    <li><h4>git stash drop</h4><p>discard the changes from top of stash stack.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Temporary Commits Completed-->
+
+                    <!--*****************************-->
+
+                    <!-- 11. Rewrite History-->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading11">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                    Rewrite History
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                            <div class="panel-body">
+                                <ul>
+                                    <p>Rewriting branches, updating commits and clearing history</p>
+                                    <li><h4>git rebase [branch]</h4><p>apply any commits of current branch ahead of specified one.</p></li>
+                                    <li><h4>git reset --hard [commit]</h4><p>clear staging area, rewrite working tree from specified commit.</p></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Rewrite History Completed-->
+
+                    <!--*****************************-->
+
                         </div>
                     </div>
                 </div>
