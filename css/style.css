@@ -36,6 +36,18 @@ a:hover, a:focus{
     box-shadow:none;
     transition:all 0.1s ease 0;
 }
+.panel-heading a{
+	animation-name:hover;
+	animation-duration:1ms;
+	animation-fill-mode:forwards;
+	animation-play-state:paused;
+}
+.panel-heading a:active, a:hover{
+	animation-name:hover;
+	animation-duration:1ms;
+	animation-fill-mode:backwards;
+	animation-play-state:running;
+}
 .panel-heading a:after, .panel-heading a.collapsed:after{
     content: "\f068";
     font-family: fontawesome;
@@ -56,6 +68,7 @@ a:hover, a:focus{
 .panel-heading:hover a:after,
 .panel-heading:hover a.collapsed:after{
     transform:rotate(360deg);
+    background-color:#bd8cbf;
 }
 .panel-heading a.collapsed:after{
     content: "\f067";
@@ -91,7 +104,14 @@ a:hover, a:focus{
     background-color: #fff;
     animation: loader-inner 2s infinite ease-in;
   }
-  
+  @keyframes hover{
+	  0%{
+		  background:white;
+	  }
+	  100%{
+		  background:linear-gradient(to right,#bd8cbf,#ED7014);
+	  }
+  }
   @keyframes loader {
     0% {
       transform: rotate(0deg);
