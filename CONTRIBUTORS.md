@@ -1,6 +1,6 @@
 # List of Contributors
 
-#### Name : ***Your Name***
-- **Location** : _Your Location_
-- **Bio** : _Your Bio_
-- **Github** : [username](<link>)
+#### Name : ***Goutham Rajesh***
+- **Location** : _Kerala, India_
+- **Bio** : _Volunteer . Developer . Intrapreneur ._
+- **Github** : [gouthamrajesh](https://github.com/gouthamrajesh)
