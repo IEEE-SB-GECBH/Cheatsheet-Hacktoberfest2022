@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+        type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+    <title>Markdown Cheat Sheet</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-1 col-md-10">
+                <h2 class=" text-white">Cheat Sheet - Markdown</h2>
+                <span class="loader pull-right"><span class="loader-inner"></span></span>
+                <hr></br>
+                <h1><a href="">Markdown Cheat Sheet</a></h1>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                    <!------------- Basic Syntax------------->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading1">
+                            <h4 class="panel-title">
+                                <a class="first" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                                    Basic Syntax
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse1" class="panel-collapse collapse in" role="tabpanel"
+                            aria-labelledby="heading1">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <h4>To create a heading</h4>
+                                        <p>
+                                            # H1 <br>
+                                            ## H2 <br>
+                                            ### H3 <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To bold a text</h4>
+                                        <p>**bold text**</p>
+                                    </li>
+                                    <li>
+                                        <h4>To italicize a text</h4>
+                                        <p>*italicize text*</p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a blockquote</h4>
+                                        <p>> blockquote</p>
+                                    </li>
+                                    <li>
+                                        <h4>To create an ordered list</h4>
+                                        <p>
+                                            1. First item <br>
+                                            2. Second item <br>
+                                            3. Third item <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create an unordered list</h4>
+                                        <p>
+                                            - First item <br>
+                                            - Second item <br>
+                                            - Third item <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a code snippet</h4>
+                                        <p>`code`</p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a horizontal rule</h4>
+                                        <p>---</p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a link</h4>
+                                        <p>[title](https://www.example.com)</p>
+                                    </li>
+                                    <li>
+                                        <h4>To add an image</h4>
+                                        <p>![alt text](image.jpg)</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------Basic Syntax Completed------------->
+
+                    <!--*****************************-->
+
+                    <!-------------Extended Syntax------------->
+                    <div class="panel panel-default">
+                        <div class="panel-heading" role="tab" id="heading2">
+                            <h4 class="panel-title">
+                                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                    Extended Syntax
+                                    <span> </span>
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                            <div class="panel-body">
+                                <ul>
+                                    <li>
+                                        <h4>To create a table</h4>
+                                        <p>
+                                            | Syntax | Description | <br>
+                                            | ----------- | ----------- | <br>
+                                            | Header | Title | <br>
+                                            | Paragraph | Text | <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a fenced code block</h4>
+                                        <p>
+                                            ``` <br>
+                                            { <br>
+                                            "firstName": "John", <br>
+                                            "lastName": "Smith", <br>
+                                            "age": 25 <br>
+                                            } <br>
+                                            ```
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a footnote</h4>
+                                        <p>
+                                            Here's a sentence with a footnote. [^1] <br>
+                                            [^1]: This is the footnote.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To add a custom heading ID</h4>
+                                        <p>
+                                            ### My Great Heading {#custom-id}
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a definition list</h4>
+                                        <p>
+                                            term <br>
+                                            : definition <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To strikethrough a text</h4>
+                                        <p>
+                                            ~~The world is flat.~~
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a task list</h4>
+                                        <p>
+                                            - [x] Register for hacktoberfest <br>
+                                            - [ ] Learn Git and GitHub <br>
+                                            - [ ] Contribute to open-source <br>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To add an emoji</h4>
+                                        <p>
+                                            :smile:
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To highlight a text</h4>
+                                        <p>
+                                            ==highlighted text==
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a subscript</h4>
+                                        <p>
+                                            H~2~O
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <h4>To create a superscript</h4>
+                                        <p>
+                                            9^th^
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-------------Extended Syntax Completed------------->
+
+                    <!--*****************************-->
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
