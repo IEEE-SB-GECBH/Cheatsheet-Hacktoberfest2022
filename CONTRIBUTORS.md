@@ -7,6 +7,6 @@
 
 #### Name : Surarapu Vagdevi
 - **Location** : Andhra Pradesh
-- **Bio** : _Competitive  Programmer_
+- **Bio** : B-tech student and a Competitive Programmer
 - **Github** : [Vagdevi007]()
 
