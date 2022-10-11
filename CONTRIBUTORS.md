@@ -9,3 +9,8 @@
 - **Location** : Andhra Pradesh
 - **Bio** : B-tech student and a Competitive Programmer
 - **Github** : [Vagdevi007](https://github.com/Vagdevi007)
+
+#### Name : ***Priya Pahwa***
+- **Location** : NIT Hamirpur
+- **Bio** : ECE undergrad passionate about building technical communities
+- **Github** : [priyapahwa](https://github.com/priyapahwa)
