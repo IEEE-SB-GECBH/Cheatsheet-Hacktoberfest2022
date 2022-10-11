@@ -9,6 +9,9 @@ body
 
 /* Content Box
 ---------------------*/
+.feature-box-1:hover{
+  cursor: pointer;
+}
 .feature-box-1 {
   padding: 32px;
   box-shadow: 0 0 30px rgba(31, 45, 61, 0.125);
