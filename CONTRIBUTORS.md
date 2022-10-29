@@ -14,3 +14,8 @@
 - **Location** : NIT Hamirpur
 - **Bio** : ECE undergrad passionate about building technical communities
 - **Github** : [priyapahwa](https://github.com/priyapahwa)
+
+#### Name : ***Mahalakshmi Kutcharlapati***
+- **Location** : Andhra Pradesh
+- **Bio** : B-tech student and a Competitive Programmer
+- **Github** : [mahalakshmikutcharlapati](https://github.com/mahalakshmikutcharlapati)
